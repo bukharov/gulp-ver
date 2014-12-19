@@ -1,0 +1,44 @@
+{
+  "name": "gulp-ver",
+  "version": "0.0.0",
+  "description": "Appends package version (package.json) to static files: style.css => style-2.0.2.css",
+  "main": "index.js",
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bukharov/gulp-ver.git"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "gulpplugin",
+    "rev",
+    "revision",
+    "version",
+    "versioning",
+    "static",
+    "asset",
+    "assets"
+  ],
+  "dependencies": {
+    "gulp-util": "^3.0.0",
+    "lodash": "^2.4.1",
+    "object-assign": "^1.0.0",
+    "through2": "^0.6.1"
+  },
+  "devDependencies": {
+    "mocha": "*"
+  },
+  "author": "Denis Bukharov <denis@bukharov.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bukharov/gulp-ver/issues"
+  },
+  "homepage": "https://github.com/bukharov/gulp-ver"
+}
