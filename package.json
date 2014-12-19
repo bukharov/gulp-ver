@@ -1,6 +1,6 @@
 {
   "name": "gulp-ver",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Appends package version (package.json) to static files: style.css => style-2.0.2.css",
   "main": "index.js",
   "engines": {
