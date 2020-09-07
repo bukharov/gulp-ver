@@ -3,11 +3,10 @@ var _ = require('lodash'),
   path = require('path'),
   fs = require('fs'),
   gutil = require('gulp-util'),
-  through = require('through2'),
-  objectAssign = require('object-assign');
+  through = require('through2')
 
 module.exports = function(opts) {
-  var options = _.extend({
+  var options = _.assign({
     file: 'package.json',
     fileKey: 'version',
     separator: '.'
